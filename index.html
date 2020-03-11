@@ -3,73 +3,130 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Jimmy Huynh</title>
+  <title>Dinosaur Bearings</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Assistant|Nunito|Shadows+Into+Light&display=swap" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Anton|Roboto&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/7988bbabc7.js" crossorigin="anonymous"></script>
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico">
 </head>
 
-<!-- TOP CONTAINER -->
 
 <body>
-  <div class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-    <h1>I'm Jimmy.</h1>
-    <h2>a programmer <span>in training</span>.</h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-    <img src="images/mountain.png" alt="mountain-img">
-  </div>
 
-  <!-- MIDDLE CONTAINER -->
-  <div class="middle-container">
-    <div class="profile">
-      <img class="profile-img" src="https://image.flaticon.com/icons/svg/1738/1738760.svg" alt="my-photo">
-      <h2>Hello World!</h2>
-      <p class="intro">I am currently working as a Staff Accountant II at <a href="https://www.iland.com/">iland Internet Solutions</a>.
-        I am interested in learning HTML, CSS, and Javascript.</p>
+  <!-- Navigation Header -->
+  <section class="fixed-header">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-header">
+      <a class="navbar-brand logo-text" href="#"><img class="footprint" src="https://i.pinimg.com/originals/cb/8f/89/cb8f89f86f8036b7a0dba59a6b8c4c31.jpg" alt="footprint">Dinosaur Bearings</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="WIP.html">Shop</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="WIP.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="WIP.html">TBD</a>
+              <a class="dropdown-item" href="WIP.html">About Us</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="WIP.html">Contact</a>
+            </div>
+          </li>
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search our Site" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Go</button>
+        </form>
+      </div>
+    </nav>
+  </section>
+
+  <!-- Jumbotron -->
+  <section id="header2">
+    <div class="jumbotron jumbo-header">
+      <h1 class="display-4">Check out our world class bearings</h1>
+      <p class="lead">Engineered and tested by the best skaters in the world. We are confident that with our bearings, you will have the best riding experience. Ever.</p>
+      <hr class="my-4">
+      <p>Our bearings are made with the best ceramic on the market and coated with the best slickity slick. Think if WD40 and lube had a baby. Now imagine that but 100x better. Yup.</p>
+      <a class="btn btn-outline-dark btn-lg" href="WIP.html" role="button">Learn more about our technology!</a>
     </div>
 
-    <hr>
+  </section>
 
-    <div class="skills">
-      <h2>My Skills</h2>
-
-      <div class="skill-row">
-        <img class="resize qb-logo" src="https://quickbooks.intuit.com/cas/dam/IMAGE/A6OWCozsM/qb_thumb.png" alt="qb-img">
-        <h3>Intuit Quickbooks</h3>
-        <p>Proficient user of Intuit Quickbooks. Almost used daily as it is a part of my job as a Staff Accountant.</p>
-      </div>
-
-      <div class="skill-row">
-        <img class="resize excel-logo" src="https://image.flaticon.com/icons/svg/732/732220.svg" alt="excel-img">
-        <h3>Microsoft Excel</h3>
-        <p>Intermediate user of Microsoft Excel. I use Excel almost daily for financial reconciliation and managing my personal finance.</p>
-      </div>
-
-      <div class="skill-row">
-        <img class="resize sb-logo" src="https://image.flaticon.com/icons/svg/502/502664.svg" alt="skate-img">
-        <h3>Skateboarding</h3>
-        <p>Intermediate Skateboarder. This is what you will find me doing on the weekends.</p>
+  <section id="images">
+    <div class="container equation">
+      <div class="row">
+        <div class="col-md-3">
+          <img class=bearing-img src="https://cdn.daddiesboardshop.com/media/catalog/product/cache/1/image/550x550/17f82f742ffe127f42dca9de82fb58b1/A/Q/AQ00ABD_3.1506694989.jpg" alt="dino-bearing">
+        </div>
+        <div class="col-md-2">
+          <i class="fas fa-plus fa-3x plus-symbol"></i>
+        </div>
+        <div class="col-md-3">
+          <img class="stick-figure" src="https://image.shutterstock.com/image-vector/icon-black-man-skater-line-600w-591411428.jpg" alt="stick-skate">
+        </div>
+        <div class="col-md-2">
+          <i class="fas fa-equals fa-3x equals-sign"></i>
+        </div>
+        <div class="col-md-2">
+          <img class="boom-emoji" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/237/collision-symbol_1f4a5.png" alt="boom-img">
+        </div>
       </div>
     </div>
+  </section>
 
-    <hr>
-
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>Have any questions?</h3>
-      <a href="mailto:hellojimhu@gmail.com" class="myButton">CONTACT ME</a>
+  <section class="the-team">
+    <div class="container jumbotron jumbo-header">
+      <h1 class="display-4 row">Meet our team</h1>
+      <div class="col-md-12">
+        <img class="team-img" src="images/team.jpg" alt="group-photo">
+      </div>
+      <div class="team-description col-md-6">
+        <p>Jimmy, Justin, and Juan committed to starting Dinosaur Bearings in 2020. Initially suggested by Justin, the idea grew into a successful business.</p>
+      </div>
+          <a class="btn btn-outline-dark btn-lg" href="WIP.html" role="button">Check out some of their clips!</a>
+      <!-- <p class="lead">Engineered and tested by the best skaters in the world. We are confident that with our bearings, you will have the best riding experience. Ever.</p>
+      <hr class="my-4">
+      <p>Our bearings are made with the best ceramic on the market and coated with the best slickity slick. Think if WD40 and lube had a baby. Now imagine that but 100x better. Yup.</p>
+      <a class="btn btn-outline-dark btn-lg" href="WIP.html" role="button">Learn more about our technology!</a> -->
     </div>
-  </div>
 
-  <!-- BOTTOM CONTAINER -->
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/jihuynh">LinkedIn</a>
-    <a class="footer-link" href="https://www.instagram.com/tx.jh/">Instagram</a>
-    <a class="footer-link" href="https://www.github.com/jhtx/">Github</a>
-    <br><br>
-    <p class="copyright">© 2020 Jimmy Huynh.</p>
-  </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="foot-icons">
+      <i class="fab fa-twitter footer-icon"></i>
+      <i class="fab fa-facebook-f footer-icon"></i>
+      <i class="fab fa-instagram footer-icon"></i>
+      <i class="fas fa-envelope footer-icon"></i>
+    </div>
+
+    <p class="foot-p">© Copyright 2020 Flatground or Die</p>
+
+  </footer>
+
+
 
 </body>
 

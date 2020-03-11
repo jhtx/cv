@@ -1,148 +1,82 @@
-/******** TAG SELECTORS ********/
-h1 {
-  margin: 50px auto 0 auto;
-  font-family: 'Shadows Into Light', sans-serif;
-  font-size: 6.5rem;
-  color: #35495e;
-}
-
-h2 {
-  font-size: 1.5rem;
-  font-family: 'Nunito', ;
-  color: #35495e;
-  font-weight: normal;
-  line-height: 2px;
-  margin: 35px auto;
-}
-
-h3 {
-  font-family: 'Nunito', ;
-  color: #347474;
-}
-
-body {
-  font-family: 'Assistant', sans-serif;
+body{
   margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar */
+.footprint{
+  width: 8%;
+  margin-right: 10px;
+}
+
+/* Jumbotron */
+
+.logo-text {
+  font-family: Anton;
+  font-size: 3rem;
+}
+
+/* Equation */
+.equation{
+  text-align: center;
+
+}
+
+.bearing-img {
+  text-align: center;
+  width: 70%;
+
+}
+
+.stick-figure {
+  width: 70%;
+}
+
+.plus-symbol {
+
+  margin: 50%;
+
+}
+
+.equals-sign{
+  margin: 50%;
+}
+
+.boom-emoji {
+  width: 100%;
+}
+
+/* The Team */
+.the-team{
+  background-color: #e9ecef;
+  padding: 0;
+  }
+.team-data{
+  padding: 0;
+}
+.team-img{
+  width: 80%;
   text-align: center;
 }
 
-span {
-  text-decoration: underline;
+.team-description{
+  margin-top: 10px;
+}
+/* Footer */
+.foot-icons, .foot-p {
+  text-align: center;
+  font-size: 8px;
+  margin: 10px;
+}
+.footer-icon{
+  margin: 10px;
 }
 
-hr {
-  border: dotted #347474;
-  border-top: 10px;
-  width: 8%;
-  border-width: 5px;
-  margin: 50px auto;
+/* WIP - Construction */
+.construction{
+  text-align: center;
 }
 
-p {
-  line-height: 2;
-}
-
-a:hover {
-  color: white;
-}
-
-/******** CLASS SELECTORS ********/
-.top-container {
-  padding-top: 10%;
-  background-color: #ee8572;
-  position: relative;
-}
-
-.middle-container {}
-
-.bottom-container {
-  background-color: #63b7af;
-  margin: 20px auto 0 auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  font-family: 'Assistant', sans-serif;
-}
-
-.top-cloud {
-  position: absolute;
-  right: 20%;
-  top: 10%;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 20%
-}
-
-.footer-link {
-  color: #347474;
-  margin: auto 15px;
-  text-decoration: none;
-}
-
-.copyright {
-  margin-bottom: 0;
-  font-size: 0.5rem;
-  color: white;
-}
-
-.resize {
-  width: 25%;
-}
-
-.profile-img {
-  width: 200px;
-  margin: 3%;
-}
-
-.skill-row {
-  width: 50%;
-  margin: 75px auto;
-  text-align: left;
-  line-height: 1.5;
-}
-
-.qb-logo {
-  float: left;
-  margin-right: 30px;
-}
-
-.excel-logo {
-  float: right;
-  margin-left: 30px;
-}
-
-.sb-logo {
-  float: left;
-  margin-right: 30px;
-}
-
-/**** BUTTON ****/
-.myButton {
-  background-color: #ffe75e;
-  border-radius: 6px;
-  border: 1px solid #ffe75e;
-  display: inline-block;
-  cursor: pointer;
-  color: #333333;
-  font-family: 'Assistant', sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  padding: 6px 24px;
-  text-decoration: none;
-  margin: 30px auto;
-}
-
-.myButton:hover {
-  background-color: #ffe75e;
-}
-
-.myButton:active {
-  position: relative;
-  top: 1px;
-}
-
-.intro {
-  width: 50%;
-  margin: auto;
+.WIP-text{
+  font-family: Roboto;
 }
